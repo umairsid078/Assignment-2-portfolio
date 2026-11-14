@@ -1,8 +1,186 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+/* Portfolio CSS */
+
+body 
+{
+  background-color: #001029;
+  color: white;
+  font-family: "Segoe UI", Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
 }
 
-a {
-  color: #00B7FF;
+/* Navigation */
+
+header .navbar.bg-light 
+{
+  
+  padding: 18px 0;
+  border-color: #395A8F !important;
+  background: linear-gradient(90deg, #001029, #122F5C) !important;
+}
+
+header .navbar-brand {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+header .nav-link {
+  color: white;
+  font-size: 16px;
+}
+
+header .nav-link:hover, header .navbar-brand:hover {
+  color: #C4D7F5;
+}
+
+
+/* Main page content */
+
+main 
+{
+  padding: 30px 0 40px;
+  flex: 1;
+}
+
+h1, h2, h3 
+{
+  color: white;
+}
+
+p 
+{
+  line-height: 1.6;
+}
+
+main p 
+{
+  color: #C4D7F5;
+}
+
+a 
+{
+  color: #C4D7F5;
+}
+
+/* Spacing for the pages */
+
+body > h1, body > h2, body > p {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+body > h1 {
+  margin-top: 30px;
+}
+
+
+/* Home page */
+
+#introLeft p 
+{
+  font-size: 18px;
+  color: #C4D7F5;
+}
+
+#introRight img {
+  height: auto;
+  max-width: 100%;
+  border-radius: 20px;
+  border: 4px solid #395A8F;
+}
+
+
+/* About page */
+
+#aboutLeft img 
+{
+  width: 300px;
+  height: auto;
+  max-width: 100%;
+  border: 3px solid #395A8F;
+  border-radius: 20px;
+}
+
+#aboutRight p {
+  color: #C4D7F5;
+  font-size: 18px;
+}
+
+#videoSection video {
+  width: 700px;
+  max-width: 100%;
+  height: auto;
+  border: 3px solid #395A8F;
+  border-radius: 8px;
+}
+
+
+/* Projects */
+
+article 
+{
+  background-color: #122F5C;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #395A8F;
+  margin-bottom: 20px;
+}
+
+article h3 {
+  margin-top: 0;
+  color: white;
+}
+
+article p {
+  line-height: 1.5;
+  color: #C4D7F5;
+}
+
+
+/* Contact */
+
+#contactCard {
+  margin: 30px auto;
+  max-width: 700px;
+  padding: 30px;
+  border-radius: 8px;
+  background-color: #122F5C;
+  border: 1px solid #395A8F;
+}
+
+#contactCard input, #contactCard textarea 
+{
+  border-radius: 4px;
+  border: 2px solid #395A8F;
+}
+
+
+/* Footer */
+
+footer 
+{
+  background: linear-gradient(to bottom, #122F5C, #001029);
+  text-align: center;
+  padding: 20px;
+  color: white;
+  margin-top: auto;
+  border-top: 1px solid #395A8F;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer a {
+  color: #C4D7F5;
+}
+
+footer a:hover {
+  color: white;
 }
